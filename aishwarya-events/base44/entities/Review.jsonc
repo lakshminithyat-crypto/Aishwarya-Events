@@ -1,0 +1,30 @@
+{
+  "name": "Review",
+  "type": "object",
+  "properties": {
+    "customer_name": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "number"
+    },
+    "review_text": {
+      "type": "string"
+    },
+    "photo_url": {
+      "type": "string"
+    },
+    "event_type": {
+      "type": "string"
+    },
+    "is_approved": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "required": [
+    "customer_name",
+    "rating",
+    "review_text"
+  ]
+}

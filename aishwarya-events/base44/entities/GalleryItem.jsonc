@@ -1,0 +1,22 @@
+{
+  "name": "GalleryItem",
+  "type": "object",
+  "properties": {
+    "photo_url": {
+      "type": "string"
+    },
+    "event_category": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "string"
+    },
+    "sort_order": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "photo_url",
+    "event_category"
+  ]
+}
